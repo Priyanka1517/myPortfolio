@@ -28,6 +28,11 @@ button{
     flex-basis : 100vh;
 }
 
+a{
+    text-decoration : none ;
+    color: white;
+}
+
 /*********************** The Side Bar **********************/
 .sideBar{
     width:18%;

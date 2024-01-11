@@ -3,10 +3,12 @@ import { MdHeight, MdHome,MdAccountCircle, MdPhotoSizeSelectActual } from "react
 import { GoProjectRoadmap } from "react-icons/go";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { RiFileUserLine } from "react-icons/ri";
+import About from "../About";
 
 export default function SideBar(){
 
-    const [bgColor, setbgColor] = React.useState(true)
+    const [bgColor, setbgColor] = React.useState(true);
+
     return(
         <div className="sideBar" >
             <div className="background">
@@ -27,7 +29,7 @@ export default function SideBar(){
                     <div className="card">
                     <li>
                     <MdAccountCircle className="icon"/>
-                    <a>About</a>
+                    <a href="../About">About</a>
                     </li>
                     </div>
 

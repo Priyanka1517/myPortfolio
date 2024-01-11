@@ -5,7 +5,7 @@ import SideBar from "./SideBar.jsx";
 import Footer from "./Footer.jsx";
 import Content from "./Content.jsx";
 
-function App(){
+export default function App(){
     return(
         <div className="App">
             <div className = "mainContainer">
@@ -15,5 +15,3 @@ function App(){
         </div>
     )
 }
-
-export default App;
